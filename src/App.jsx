@@ -4,7 +4,7 @@ import { ContactShadows, Environment, Lightformer, OrbitControls, Loader } from 
 
 import { CustomizationProvider } from "./context/Customization"
 import Configurator from "./components/Configurator";
-import { Ranger } from "./vehicles/RangerOG";
+import { Ranger } from "./vehicles/Ranger";
 
 export default function App() {
 
