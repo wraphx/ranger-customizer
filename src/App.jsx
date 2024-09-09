@@ -19,9 +19,8 @@ export default function App() {
           <Ranger scale={6} position={[0, 0, 0]} />
           </Suspense>
           <hemisphereLight intensity={2.5} />
-          <ContactShadows position={[0, 0, 0.0]} opacity={0.75} scale={15} blur={2.5} far={0.8} />
-          <ContactShadows resolution={1024} frames={1} position={[0, 0, 0]} scale={19} blur={0.5} opacity={0.5} far={20} />
-          
+          <ContactShadows position={[0, 0, 0]} opacity={0.75} scale={15} blur={2.5} far={2.8} />
+          <ContactShadows resolution={1024} frames={1} position={[0, 0, 0]} scale={19} blur={0.5} opacity={0.5} far={10} />          
           <ambientLight intensity={3.7} />
           
 
